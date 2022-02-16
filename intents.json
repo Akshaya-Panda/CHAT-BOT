@@ -1,0 +1,337 @@
+{
+    "intents":[
+    {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?"
+        ],
+        "responses": [
+           "Hi, welcome to NIST admission helper."
+        ]
+    },
+    {
+        "tag":"mentor",
+        "patterns":[
+            "Are mentors available ?",
+            "Is there any provision for mentors"
+        ],
+        "responses":[
+            "Yes, Mentors are available for study and research purposes"
+        ]
+    },
+    {
+        "tag": "clubs",
+        "patterns":[
+            "Are there any clubs in the college ?",
+            "What about clubs ?"
+            
+        ],
+        "responses":[
+            "NIST has clubs to cater to every interest.",
+            "Yes, we do have clubs in a number of fields"
+        ]
+    },
+    {
+        "tag":"placement",
+        "patterns":[
+            "What about the placements ?",
+            "How's the placement ?"
+        ],
+        "responses":[
+            "Placement drives run throughout the year. Most prominent companies visit campus for placement. This year alone 600+ students were placed at top MNCs across the country."
+
+        ]
+    },
+    {
+        "tag":"branch",
+        "patterns":[
+            "What all branches are available ?",
+            "What are the option for branches in Engineering ?"
+        ],
+        "responses":[
+            "NIST B.Tech program offers: Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Information Technology, Mechanical Engineering, Electrical Engineering, and Civil Engineering."
+        ]
+    },
+    {
+        "tag":"B.Tech Admission",
+        "patterns":[
+            "What's the admission procedure for B.tech ?",
+            "B.tech admission",
+            "Admission in B.tech"
+        ],
+        "responses":["Admission criteria to B.Tech includes the performance in the class 12/equivalent examination and Joint Entrance Examination, JEE (Main)."]
+    },
+    {
+        "tag":"B.Com Admission",
+        "patterns":[
+            "Admission in B.Com",
+            "What's the admission procedure for B.Com ?",
+            "B.Com Admission"
+        ],
+        "responses":["Students having an academic background of commerce or science at 10+2 level can pursue B.Com (Hon) program at NIST. Admissions are done on the basis of students' merit in 10+2 examinations in commerce or science stream. The fees is according to the guidelines prescribed by the Government of Odisha."]
+    },
+    {
+        "tag": "B.Sc Admission",
+        "patterns":[
+            "Admissions in B.Sc",
+            "What's the admission procedure for B.Sc ?",
+            "B.Sc Admission"
+        ],
+        "responses":["Students having an academic background of science at 10+2 level can pursue B.Sc program. At NIST, we offer B.Sc Honours programs in PCM (Physics, Chemistry, Mathematics) stream, affiliated to Berhampur University. Admissions are done on the basis of students' merit in 10+2 examinations."]
+
+    },
+    {
+      "tag": "MBA Admission",
+      "patterns":[
+          "Admission in MBA",
+          "What is the admission procedure for MBA ?",
+          "MBA Admission"
+      ],
+      "responses":["Bachelor's degree from any recognized University or Institution can apply for MBA at NIST. Admissions are done through Odisha Joint Entrance Examination (O-JEE) and All India Management Aptitudes Test (MAT)."]
+    },
+    {
+        "tag":"MCA Admission",
+        "patterns":[
+            "Admission in MCA",
+            "What is the admission procedure for MCA ?",
+            "MCA Admission"
+        ],
+        "responses":["Admission to MCA is through the JEE conducted each year in May/June by Government of Odisha. The minimum eligibility for appearing in JEE is pass in +3 with Mathematics at +2 level. Reservation for SC/ST, handicapped, Women, Military, Green Card and outside State Quota is available. Five percent of the total intake is reserved for NRI/In-lieu of NRI quota."]
+    },
+    {
+        "tag":"M.Sc Admission",
+        "patterns":[
+            "Admission in M.Sc",
+            "What is the admission procedure for M.Sc ?",
+            "M.Sc Admission"
+        ],
+        "responses":["Applicant must have passed B.Sc with (Physics, Chemistry, Mathematics) or equivalent as recognized by Berhampur University and fulfill the minimum qualifying marks (45% for general category, and 40% for reserved)."]
+
+    },
+    {
+        "tag":"M.Tech Admission",
+        "patterns":[
+            "Admission in M.tech",
+            "What is the admission procedure for M.Tech ?",
+            "M.Tech Admission"
+        ],
+        "responses":["Admission is done through the OJEE counselling. Preference is given to candidates having a valid GATE score. Non-GATE candidates having a minimum of 60% in aggregate OR CGPA of 6.5/10 at B.Tech./B.E level can also apply. Students with B.E/B.Tech/MCA in the relevant discipline are eligible to apply."]
+
+    },
+    {
+        "tag":"Ph.D Admission",
+        "patterns":[
+            "Admission in Ph.D",
+            "What is the procedure for admission in Ph.D ?",
+            "Ph.D Admission"
+        ],
+        "responses":["Please visit http://www.nist.edu/academics/PhdDetails.php to know the details."]
+    },
+    {
+        "tag":"Admission",
+        "patterns":[
+            "What is the admission process ?",
+            "What is the admission procedure ?"
+        ],
+        "responses":["Admission process differs from program to program. Please select the program you're interested in such as B.Tech, M.Tech, M.Sc, B.Sc, MBA, MCA or B.Com. "]
+    },
+    {
+        "tag":"Cancellation",
+        "patterns":[
+            "Can I cancel my admission ?",
+            "Can I cancel my application ?",
+            "Can I cancel my enrollment ?"
+        ],
+        "responses":["We would suggest you not to. However, you can under certain circumstances and may have to make some minimum payment."]
+    },
+    {
+        "tag":"Hostel",
+        "patterns":[
+            "Are there separate hostels for boys and girls ?"
+        ],
+        "responses":["We have separate hostels for boys and girls."]
+    },
+    {
+        "tag":"Branch Change",
+        "patterns":[
+            "Can I change my branch after admission ?"
+        ],
+        "responses":["You can change to your branch of choice, after one year, but not necessarily right after the admission. "]
+
+    },
+    {
+        "tag":"Lateral entry branch",
+        "patterns":[
+            "Can I take lateral entry admission in any branch ?"
+        ],
+        "responses":["Yes, if you have a diploma in any branch, you can take admission in any branch of engineering through Lateral Entry."]
+
+    },
+    {
+        "tag":"Fees",
+        "patterns":[
+            "What's the admission fee ?",
+            "What's the amount of admission fee ?",
+            "What's the fee ?",
+            "What amount of fee ?"
+        ],
+        "responses":["Admission fees are according to the guidelines prescribed by the Government of Odisha. For details, contact admission co-ordinator."]
+
+    },
+    {
+        "tag":"Affiliation",
+        "patterns":[
+            "What are NIST's affiliations ?"
+        ],
+        "responses":["NIST is approved by AICTE (MHRD, Govt. of India) and affiliated to Biju Patnaik University of Technology, Odisha."]
+    },
+    {
+        "tag":"Documents",
+        "patterns":[
+            "What are the documents needed ?",
+            "What supporting documents are required ?"
+        ],
+        "responses":["10th and 12th marksheets, 10th certificate, college/school leaving certificate, aadhar card and passport size photograph."]
+    },
+    {
+        "tag":"Faculty",
+        "patterns":[
+            "I want to know about the faculty.",
+            "Tell me about faculty at NIST."
+        ],
+        "responses":["NIST faculty comprises 56 doctorates, 51 IITians, 38 having 10+ years of industry experience, 23 having worked/studied abroad. All are approachable and helpful."]
+    },
+    {
+        "tag":"Choose Branch",
+        "patterns":[
+            "How do I choose my branch ?"
+        ],
+        "responses":["Know your passion, talk to some of your seniors who are doing engineering, consult someone who is working as an engineer in some organization. Your decision should not be based on your friendâ€™s decisions as everybodyâ€™s interest is different. By the way, NIST B.Tech program offers: Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Information Technology, Mechanical Engineering, Electrical Engineering, and Civil Engineering."]
+
+    },
+    {
+        "tag":"Joining",
+        "patterns":[
+            "How do I join ?",
+            "How do I join NIST ?"
+        ],
+        "responses":["Joining procedure differs from program to program. Please select the program you're interested in such as B.Tech, M.Tech, M.Sc, B.Sc, MBA, MCA or B.Com."]
+
+    },
+    {
+        "tags":"Programs offered",
+        "patterns":[
+            "What are the programs offered ?"
+        ],
+        "responses":["NIST offers UG and PG programs such as: B.Tech, M.Tech, B.Sc, M.Sc, MCA, MBA, B.Com and Ph.D."]
+    },
+    {
+        "tags":"Lateral Entry process",
+        "patterns":[
+            "What is the lateral entry procedure at NIST ?",
+            "What is the lateral entry process at NIST ?"
+        ],
+        "responses":["Lateral entry provision is for B.Tech and MCA."]
+    },
+    {
+        "tag":"Hostel Facility",
+        "patterns":[
+            "Do you have hostel facilities ?"
+        ],
+        "responses":["We have separate hostel facilities for boys and girls on-campus and off-campus, suiting everyone's need."]
+    },
+    {
+        "tag":"Programs",
+        "patterns":[
+            "Can I apply for several programs ?"
+        ],
+        "responses":["You can list your priority of program choice."]
+    },
+    {
+        "tag":"in-house job",
+        "patterns":[
+            "Can I find a job in-house in the campus ?"
+        ],
+        "responses":["We have provision for it. Please consult the institute management to avail the same."]
+    },
+    {
+        "tag":"Scholarship",
+        "patterns":[
+            "Does NIST offer scholarship ?",
+            "Can I get any scholarship ?"
+        ],
+        "responses":["NIST offers scholarships such as research assistantship, teacher assistantships, and also on the basis of academic excellence and leadership."]
+    },
+    {
+        "tag":"Transport",
+        "patterns":[
+            "Do you have transport facility ?"
+        ],
+        "responses":["We’ve a fleet of buses plying the locality 24x7."]
+    },
+    {
+        "tag":"Day Scholar",
+        "patterns":[
+            "Do you have day scholar provision ?"
+        ],
+        "responses":["We have day scholar provision."]
+    },
+    {
+        "tag":"Application",
+        "patterns":[
+            "How do I apply ?"
+        ],
+        "responses":["Application for admission differs from program to program. Please select the program you're interested in such as B.Tech, M.Tech, M.Sc, B.Sc, MBA, MCA or B.Com."]
+    },
+    {
+        "tag":"Enrollment",
+        "patterns":[
+            "How do I enroll ?"
+        ],
+        "responses":["Enrollment procedure varies from program to program. Please select the program you're interested in such as B.Tech, M.Tech, M.Sc, B.Sc, MBA, MCA or B.Com."]
+    },
+    {
+        "tag":"Application Status",
+        "patterns":[
+            "How do I know my application status ?"
+        ],
+        "responses":["Please consult admission co-ordinator for details."]
+    },
+    {
+        "tag":"Food",
+        "patterns":[
+            "How is the food ?"
+        ],
+        "responses":["We provide healthy, nutritional, less greasy and less spicy veg and non-veg food. From time to time we even try to give students some regional delicacies."]
+    },
+    {
+        "tag":"Engineering Branches",
+        "patterns":[
+            "How many engineering branches are there ?",
+            "What are the branches in B.Tech ?"
+        ],
+        "responses":["Under B.Tech program, NIST offers Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Information Technology, Mechanical Engineering, Electrical Engineering, and Civil Engineering."]
+    },
+    {
+        "tag":"Installment",
+        "patterns":[
+            "Can I pay fee in installment ?"
+        ],
+        "responses":["Installment payment option is available."]
+    },
+    {
+        "tag":"Placement training",
+        "patterns":[
+            "How does the institute help students in getting placement ?"
+        ],
+        "responses":["NIST has expert trainers to enhance employability of the students through communication skills, technical skills, leadership skills, and problem-solving. This year, from campus recruitment, 600+ students got placed in major MNCs across the country."]
+
+    }
+    
+    
+    ]
+}
