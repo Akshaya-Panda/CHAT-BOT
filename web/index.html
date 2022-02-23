@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./css/mdb.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/chatbot.css">
-    <script src="./js/chatbot.js"></script>
 </head>
 
 <body>
@@ -19,23 +18,27 @@
         <button class="btn btn-dark btn-floating" onclick="open_chat()"><img class="bot_img" src="./img/bot_logo.png" alt="Bot_logo"></button>
     </div>
     <div id="chat-window">
-        <div id="chat-header">
+        <div id="chat-header" class="bg-dark">
             <h5 class="text-white ms-3">NIST Admission Helper</h5>
             <button type="button" class="btn-danger btn-close" onclick="close_chat()"></button>
         </div>
-        <div id="chat-body"></div>
-        <div id="chat-footer">
+        <div id="chat-body">
+            <div id="body-inner">
+            </div>
+        </div>
+        <div id="chat-footer" class="bg-dark">
             <div id="input-div" class="ms-1">
                 <div class="form-outline form-white">
                     <input type="text" name="msg-input" id="msg-input" class="form-control" placeholder="Type Here">
                 </div>
             </div>
-            <button type="button" class="btn btn-light btn-sm">
+            <button type="button" id="msg_btn" class="btn btn-light btn-sm" onclick="input_data()">
                 Send
             </button>
         </div>
     </div>
     <script src="./js/mdb.min.js"></script>
+    <script src="./js/chatbot.js"></script>
 </body>
 
 </html>
