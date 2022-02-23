@@ -363,7 +363,9 @@
     {
         "tag":"Location",
         "patterns":[
-            "Where's the campus located ?"
+            "Where's the campus located ?",
+            "Where is the campus ?",
+            "What is the location of the campus ?"
             
         ],
         "responses":["Right on NH-16, under Pallur foothills surrounding serene natural setting. The nearest city, Berhampur, is just 12km."]
@@ -371,14 +373,17 @@
     {
         "tag":"Health Facility",
         "patterns":[
-            "What health facilities are there on campus ?"
+            "What health facilities are there on campus ?",
+            "Is there any health facilities ?"
         ],
         "responses":["The campus has a primary health center to take the basic ailments. We also have ambulance service."]
     },
     {
         "tag":"Financial Help",
         "patterns":[
-            "What financial help I can get from college ?"
+            "What financial help I can get from college ?",
+            "Can I get any financial message ?",
+            "Can I get any financial assistance ?"
         ],
         "responses":["You can get many financial aids such as research assistantship, teacher assistantships, and also on the basis of academic excellence and leadership."]
     },
@@ -395,7 +400,7 @@
         "tag":"Accreditations",
         "patterns":[
             "What are NIST's accreditations ?",
-            "Is NIST accredited?"
+            "Is NIST accredited ?"
         ],
         "responses":["It has NBA and NAAC (Grade A) accreditation. It’s also got academic autonomy."]
     },
@@ -409,7 +414,9 @@
     {
         "tag":"WiFi",
         "patterns":[
-            "Is there WiFi in campus ?"
+            "Is there Wi-Fi in campus ?",
+            "What are the Wi-fi facilites ?",
+            "Can I get Internet facility ?"
         ],
         "responses":["The entire institute park and compus has wifi access."]
     },
@@ -425,7 +432,8 @@
         "tag":"Internship",
         "patterns":[
             "Is internship available ?",
-            "Is there any internship for students ?"
+            "Is there any internship for students ?",
+            "Can I get any internship ?"
         ],
         "responses":["Internship is available right from joining till you graduate."]
     },
