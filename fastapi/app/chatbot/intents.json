@@ -223,14 +223,14 @@
 
     },
     {
-        "tags":"Programs offered",
+        "tag":"Programs offered",
         "patterns":[
             "What are the programs offered ?"
         ],
         "responses":["NIST offers UG and PG programs such as: B.Tech, M.Tech, B.Sc, M.Sc, MCA, MBA, B.Com and Ph.D."]
     },
     {
-        "tags":"Lateral Entry process",
+        "tag":"Lateral Entry process",
         "patterns":[
             "What is the lateral entry procedure at NIST ?",
             "What is the lateral entry process at NIST ?"
