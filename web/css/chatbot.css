@@ -1,6 +1,6 @@
 #chat-btn
 {
-    visibility: hidden;
+    /* visibility: hidden; */
     height: 70px;
     width: 70px;
     position: fixed;
@@ -32,7 +32,7 @@
     bottom: 7%;
     border-radius: 3%;
     overflow: hidden;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 #chat-header h5
@@ -88,12 +88,12 @@
     width: 100%;
     background-color: white;
     border-radius: 3%;
-    /* margin: 5%; */
     display: flex;
     padding: 4%;
     flex-direction: column;
     overflow: scroll;
     overflow-x: auto;
+    scroll-behavior: auto;
 }
 
 .msg-left
@@ -103,7 +103,7 @@
     border-radius: 10px;
     margin-right: 35%;
     padding: 3%;
-    text-align: justify;
+    text-align: left;
     color: white;
     width: fit-content;
     align-self: flex-start;
@@ -116,7 +116,7 @@
     border-radius: 10px;
     margin-left: 35%;
     padding: 3%;
-    text-align: justify;
+    text-align: left;
     color: white;
     width:fit-content;
     align-self: flex-end;

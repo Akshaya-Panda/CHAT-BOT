@@ -137,7 +137,7 @@
             "How do I take admission in Ph.D ?",
             "Ph.D Admission"
         ],
-        "responses":["Please visit http://www.nist.edu/academics/PhdDetails.php to know the details."]
+        "responses":["Please visit <a href='http://www.nist.edu/academics/PhdDetails.php'>This link</a> to know the details."]
     },
     {
         "tag":"Admission",

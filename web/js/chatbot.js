@@ -9,13 +9,22 @@ function close_chat() {
 }
 
 function input_data() {
+    baseUrl = "http://localhost:8080";
     input_txt = document.getElementById('msg-input').value;
+    if(input_txt=="")
+        return;
     document.getElementById('msg-input').value='';
     document.getElementById('body-inner').innerHTML+='<span class="msg-right">'+input_txt+'</span>';
+    fetch(baseUrl+"/getReply/"+input_txt).then(response=>response.json()).then(json=>{
+        json.forEach(element => {
+            if(element!="")
+                document.getElementById('body-inner').innerHTML+='<span class="msg-left">'+element+"."+'</span>';
+        });
+    });
+    
 }
 
-var msg_in = document.getElementById('msg-input');
-msg_in.addEventListener("keyup", function(event) {
+document.getElementById('msg-input').addEventListener("keyup", function(event) {
     console.log("I was here!!!");
     if (event.keyCode === 13) {
         event.preventDefault();

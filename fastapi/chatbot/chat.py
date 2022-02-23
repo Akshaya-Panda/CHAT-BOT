@@ -40,7 +40,7 @@ def get_reply(query):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                return random.choice(intent['responses'])
+                return random.choice(intent['responses']).split('.')
     else:
         return "Sorry, I couldn't understand!"
 
