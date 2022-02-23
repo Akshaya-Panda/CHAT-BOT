@@ -8,12 +8,12 @@ from torch.utils.data import Dataset, DataLoader
 
 import os
 
-from preProcessing import bag_of_words, tokenize, stem
-from model import NeuralNet
+from chatbot.preProcessing import bag_of_words, tokenize, stem
+from chatbot.model import NeuralNet
 
 def train_model():
     print(os.curdir)
-    with open('./intents.json', 'r') as f:
+    with open('chatbot/intents.json', 'r') as f:
         intents = json.load(f)
 
     all_words = []
@@ -128,7 +128,7 @@ def train_model():
     "tags": tags
     }
 
-    FILE = "data.pth"
+    FILE = "chatbot/data.pth"
     torch.save(data, FILE)
     return f_loss
     # print(f'training complete. file saved to {FILE}')

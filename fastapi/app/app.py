@@ -1,14 +1,14 @@
 import string
 from fastapi import FastAPI
 from chatbot.train import train_model
+from chatbot.chat import get_reply
 
 app = FastAPI()
 
 @app.post("/getReply", tags=['ChatBot'])
 async def getReply(question:dict)->list:
-    print(question)
-    return ["Thank you for asking the question"]
+    return [get_reply(question['question'])]
 
 @app.get("/trainModel", tags=['Chatbot'])
 async def trainModel()->str:
-    train_model()
+    return train_model()
