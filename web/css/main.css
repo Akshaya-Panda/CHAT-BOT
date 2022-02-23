@@ -1,0 +1,16 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#head-pane
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/body_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
