@@ -177,7 +177,15 @@
             "What's the admission fee ?",
             "What's the amount of admission fee ?",
             "What's the fee ?",
-            "What amount of fee ?"
+            "What amount of fee ?",
+            "What is the admission fees for B.Tech ?",
+            "What is the admission fees for M.Tech ?",
+            "What is the admission fees for Ph.D ?",
+            "What is the admission fees for MCA ?",
+            "What is the admission fees for MBA ?",
+            "What is the admission fees for M.Sc ?",
+            "What is the admission fees for B.Sc ?",
+            "What is the admission fees for B.Comp ?"
         ],
         "responses":["Admission fees are according to the guidelines prescribed by the Government of Odisha. For details, contact admission co-ordinator."]
 
@@ -208,7 +216,8 @@
     {
         "tag":"Choose Branch",
         "patterns":[
-            "How do I choose my branch ?"
+            "How do I choose my branch ?",
+            "How can I choose my branch ?"
         ],
         "responses":["Know your passion, talk to some of your seniors who are doing engineering, consult someone who is working as an engineer in some organization. Your decision should not be based on your friendâ€™s decisions as everybodyâ€™s interest is different. By the way, NIST B.Tech program offers: Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Information Technology, Mechanical Engineering, Electrical Engineering, and Civil Engineering."]
 
@@ -223,7 +232,7 @@
 
     },
     {
-        "tag":"Programs offered",
+        "tag":"Programs Offered",
         "patterns":[
             "What are the programs offered ?"
         ],
@@ -372,13 +381,6 @@
             "What financial help I can get from college ?"
         ],
         "responses":["You can get many financial aids such as research assistantship, teacher assistantships, and also on the basis of academic excellence and leadership."]
-    },
-    {
-        "tag":"Programs Offered",
-        "patterns":[
-            "What are the programs offered ?"
-        ],
-        "responses":["NIST offers UG and PG programs such as: B.Tech, M.Tech, B.Sc, M.Sc, MCA, MBA, B.Com and Ph.D."]
     },
     {
         "tag":"Advantages",
