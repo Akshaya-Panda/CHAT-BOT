@@ -60,6 +60,7 @@
         "tag":"B.Tech Admission",
         "patterns":[
             "What's the admission procedure for B.tech ?",
+            "How do I take admission in B.tech ?",
             "B.tech admission",
             "Admission in B.tech"
         ],
@@ -70,6 +71,7 @@
         "patterns":[
             "Admission in B.Com",
             "What's the admission procedure for B.Com ?",
+            "How do I take admission in B.Com ?",
             "B.Com Admission"
         ],
         "responses":["Students having an academic background of commerce or science at 10+2 level can pursue B.Com (Hon) program at NIST. Admissions are done on the basis of students' merit in 10+2 examinations in commerce or science stream. The fees is according to the guidelines prescribed by the Government of Odisha."]
@@ -79,6 +81,7 @@
         "patterns":[
             "Admissions in B.Sc",
             "What's the admission procedure for B.Sc ?",
+            "How do I take admission in B.Sc ?",
             "B.Sc Admission"
         ],
         "responses":["Students having an academic background of science at 10+2 level can pursue B.Sc program. At NIST, we offer B.Sc Honours programs in PCM (Physics, Chemistry, Mathematics) stream, affiliated to Berhampur University. Admissions are done on the basis of students' merit in 10+2 examinations."]
@@ -89,6 +92,7 @@
       "patterns":[
           "Admission in MBA",
           "What is the admission procedure for MBA ?",
+          "How do I take admission in MBA ?",
           "MBA Admission"
       ],
       "responses":["Bachelor's degree from any recognized University or Institution can apply for MBA at NIST. Admissions are done through Odisha Joint Entrance Examination (O-JEE) and All India Management Aptitudes Test (MAT)."]
@@ -98,6 +102,7 @@
         "patterns":[
             "Admission in MCA",
             "What is the admission procedure for MCA ?",
+            "How do I take admission in MCA ?",
             "MCA Admission"
         ],
         "responses":["Admission to MCA is through the JEE conducted each year in May/June by Government of Odisha. The minimum eligibility for appearing in JEE is pass in +3 with Mathematics at +2 level. Reservation for SC/ST, handicapped, Women, Military, Green Card and outside State Quota is available. Five percent of the total intake is reserved for NRI/In-lieu of NRI quota."]
@@ -107,6 +112,7 @@
         "patterns":[
             "Admission in M.Sc",
             "What is the admission procedure for M.Sc ?",
+            "How do I take admission in M.Sc ?",
             "M.Sc Admission"
         ],
         "responses":["Applicant must have passed B.Sc with (Physics, Chemistry, Mathematics) or equivalent as recognized by Berhampur University and fulfill the minimum qualifying marks (45% for general category, and 40% for reserved)."]
@@ -117,6 +123,7 @@
         "patterns":[
             "Admission in M.tech",
             "What is the admission procedure for M.Tech ?",
+            "How do I take admission in M.Tech ?",
             "M.Tech Admission"
         ],
         "responses":["Admission is done through the OJEE counselling. Preference is given to candidates having a valid GATE score. Non-GATE candidates having a minimum of 60% in aggregate OR CGPA of 6.5/10 at B.Tech./B.E level can also apply. Students with B.E/B.Tech/MCA in the relevant discipline are eligible to apply."]
@@ -127,6 +134,7 @@
         "patterns":[
             "Admission in Ph.D",
             "What is the procedure for admission in Ph.D ?",
+            "How do I take admission in Ph.D ?",
             "Ph.D Admission"
         ],
         "responses":["Please visit http://www.nist.edu/academics/PhdDetails.php to know the details."]
@@ -135,7 +143,8 @@
         "tag":"Admission",
         "patterns":[
             "What is the admission process ?",
-            "What is the admission procedure ?"
+            "What is the admission procedure ?",
+            "How do I take admission ?"
         ],
         "responses":["Admission process differs from program to program. Please select the program you're interested in such as B.Tech, M.Tech, M.Sc, B.Sc, MBA, MCA or B.Com. "]
     },
@@ -331,7 +340,8 @@
     {
         "tag":"Installment",
         "patterns":[
-            "Can I pay fee in installment ?"
+            "Can I pay fee in installment ?",
+            "Is it possible to pay fees in installments ?"
         ],
         "responses":["Installment payment option is available."]
     },
@@ -433,14 +443,16 @@
         "patterns":[
             "Is internship available ?",
             "Is there any internship for students ?",
-            "Can I get any internship ?"
+            "Can I get any internship ?",
+            "Any provision for internship ?"
         ],
         "responses":["Internship is available right from joining till you graduate."]
     },
     {
         "tag":"Campus Diversity",
         "patterns":[
-            "Is there diversity in campus?"
+            "Is there diversity in campus?",
+            "How is the campus ?"
         ],
         "responses":["We have students from across the country. So, multi-culture is the norm in the campus."]
     },
@@ -463,7 +475,8 @@
     {
         "tag":"Boarding",
         "patterns":[
-            "Is boarding in hostel compulsory?"
+            "Is boarding in hostel compulsory?",
+            "Is is compulsory to stay in hostel ?"
         ],
         "responses":["Boarding in hostel is not compulsory. We have day scholars too."]
     },
@@ -485,14 +498,16 @@
     {
         "tag":"Application Cancel",
         "patterns":[
-            "Will my application get canceled ?"
+            "Will my application get canceled ?",
+            "Can my application get cancelled ?"
         ],
         "responses":["Maybe, on rare occasions. Consult admission co-ordinator for details."]
     },
     {
         "tag":"In hostel facilities",
         "patterns":[
-            "What are the facilities available for hostel inmates ?"
+            "What are the facilities available for hostel inmates ?",
+            "What are the facilities available inside the hostel ?"
         ],
         "responses":["NIST hostels have every facility required for healthy living, grooming and developing a better personality."]
     }
