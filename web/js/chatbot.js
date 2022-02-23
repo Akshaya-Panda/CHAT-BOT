@@ -18,7 +18,7 @@ function input_data() {
     fetch(baseUrl+"/getReply/"+input_txt).then(response=>response.json()).then(json=>{
         json.forEach(element => {
             if(element!="")
-                document.getElementById('body-inner').innerHTML+='<span class="msg-left">'+element+"."+'</span>';
+                document.getElementById('body-inner').innerHTML+='<span class="msg-left">'+element+'</span>';
         });
     });
     
