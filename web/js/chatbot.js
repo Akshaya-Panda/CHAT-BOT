@@ -14,14 +14,15 @@ function input_data() {
     if(input_txt=="")
         return;
     document.getElementById('msg-input').value='';
-    document.getElementById('body-inner').innerHTML+='<span class="msg-right">'+input_txt+'</span>';
+    var body_inner = document.getElementById('body-inner');
+    body_inner.innerHTML+='<span class="msg-right">'+input_txt+'</span>';
     fetch(baseUrl+"/getReply/"+input_txt).then(response=>response.json()).then(json=>{
         json.forEach(element => {
             if(element!="")
-                document.getElementById('body-inner').innerHTML+='<span class="msg-left">'+element+'</span>';
+                body_inner.innerHTML+='<span class="msg-left">'+element+'</span>';
         });
+        body_inner.scrollTop=body_inner.scrollHeight;
     });
-    
 }
 
 document.getElementById('msg-input').addEventListener("keyup", function(event) {
